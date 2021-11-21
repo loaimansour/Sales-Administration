@@ -101,6 +101,19 @@ namespace Product_Managment.BL
             dl.Close();
 
         }
+        public DataTable SearchUsers(string Critiration)
+        {
+            SqlParameter[] pr = new SqlParameter[1];
+            pr[0] = new SqlParameter("@Critiration", SqlDbType.VarChar, 50);
+            pr[0].Value = Critiration;
+
+            DAL.DataAccessLayer dl = new DAL.DataAccessLayer();
+            dl.open();
+            DataTable dt = new DataTable();
+            dt = dl.SelectData("SearchUsers", pr);
+            dl.Close();
+            return dt;
+        }
 
 
 

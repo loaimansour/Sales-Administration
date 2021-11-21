@@ -261,8 +261,7 @@ namespace Product_Managment.PL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MainFrm f = new MainFrm();
-            f.ShowDialog();
+           
             this.Close();
         }
 

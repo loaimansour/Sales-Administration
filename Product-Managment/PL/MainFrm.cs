@@ -149,6 +149,12 @@ namespace Product_Managment.PL
         {
            
         }
+
+        private void userManagementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRM_USER_LIST f = new FRM_USER_LIST();
+            f.ShowDialog();
+        }
     }
 
 

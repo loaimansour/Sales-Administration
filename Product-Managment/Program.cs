@@ -18,7 +18,7 @@ namespace Product_Managment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PL.FRM_ORDER_LIST());
+            Application.Run(new PL.MainFrm());
             
         }
     }

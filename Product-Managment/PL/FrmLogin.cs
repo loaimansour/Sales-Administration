@@ -50,7 +50,7 @@ namespace Product_Managment.PL
                 MainFrm.ReturnForm.Create_Abackup.Enabled = true;
                // MainFrm.ReturnForm.Restore.Enabled = true;
               
-                MainFrm.ReturnForm.ShowDialog();
+               
                   this.Close();
                 }
            
@@ -63,7 +63,7 @@ namespace Product_Managment.PL
                     MainFrm.ReturnForm.Create_Abackup.Enabled = true;
                     
 
-                    MainFrm.ReturnForm.ShowDialog();
+                 
                     this.Close();                                                                        
 
 

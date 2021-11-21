@@ -39,7 +39,6 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.categoryManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Customer = new System.Windows.Forms.ToolStripMenuItem();
-            this.addCustomerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customerManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.addANewSaleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -78,23 +77,22 @@
             // 
             // signInToolStripMenuItem
             // 
-            this.signInToolStripMenuItem.BackgroundImage = global::Product_Managment.Properties.Resources._1;
             this.signInToolStripMenuItem.Name = "signInToolStripMenuItem";
-            this.signInToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.signInToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.signInToolStripMenuItem.Text = "Sign in";
             this.signInToolStripMenuItem.Click += new System.EventHandler(this.signInToolStripMenuItem_Click);
             // 
             // Create_Abackup
             // 
             this.Create_Abackup.Name = "Create_Abackup";
-            this.Create_Abackup.Size = new System.Drawing.Size(184, 22);
+            this.Create_Abackup.Size = new System.Drawing.Size(159, 22);
             this.Create_Abackup.Text = "Create a backup";
             this.Create_Abackup.Click += new System.EventHandler(this.Create_Abackup_Click);
             // 
             // SignUot
             // 
             this.SignUot.Name = "SignUot";
-            this.SignUot.Size = new System.Drawing.Size(184, 22);
+            this.SignUot.Size = new System.Drawing.Size(159, 22);
             this.SignUot.Text = "Sign Out";
             this.SignUot.Click += new System.EventHandler(this.SignUot_Click);
             // 
@@ -138,7 +136,6 @@
             // Customer
             // 
             this.Customer.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addCustomerToolStripMenuItem,
             this.customerManagementToolStripMenuItem,
             this.toolStripSeparator1,
             this.addANewSaleToolStripMenuItem,
@@ -146,13 +143,6 @@
             this.Customer.Name = "Customer";
             this.Customer.Size = new System.Drawing.Size(76, 20);
             this.Customer.Text = "Customers";
-            // 
-            // addCustomerToolStripMenuItem
-            // 
-            this.addCustomerToolStripMenuItem.Name = "addCustomerToolStripMenuItem";
-            this.addCustomerToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
-            this.addCustomerToolStripMenuItem.Text = "Add Customer";
-            this.addCustomerToolStripMenuItem.Click += new System.EventHandler(this.addCustomerToolStripMenuItem_Click);
             // 
             // customerManagementToolStripMenuItem
             // 
@@ -201,6 +191,7 @@
             this.userManagementToolStripMenuItem.Name = "userManagementToolStripMenuItem";
             this.userManagementToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.userManagementToolStripMenuItem.Text = "User management";
+            this.userManagementToolStripMenuItem.Click += new System.EventHandler(this.userManagementToolStripMenuItem_Click);
             // 
             // MainFrm
             // 
@@ -233,7 +224,6 @@
         private System.Windows.Forms.ToolStripMenuItem productManagementToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem categoryManagementToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addCustomerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem customerManagementToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem addANewSaleToolStripMenuItem;

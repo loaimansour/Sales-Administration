@@ -113,6 +113,7 @@
             this.txtIDCat.Name = "txtIDCat";
             this.txtIDCat.Size = new System.Drawing.Size(205, 20);
             this.txtIDCat.TabIndex = 8;
+            this.txtIDCat.TextChanged += new System.EventHandler(this.txtIDCat_TextChanged);
             // 
             // txtQty
             // 

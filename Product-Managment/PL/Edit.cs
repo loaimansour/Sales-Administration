@@ -31,14 +31,11 @@ namespace Product_Managment.PL
 
 
 
-
-
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+            this.Close();
             
         }
 
@@ -52,6 +49,11 @@ namespace Product_Managment.PL
             {
                 picEdit.Image = Image.FromFile(ofd.FileName);
             }
+        }
+
+        private void txtIDCat_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -41,10 +41,10 @@ namespace Product_Managment.PL
         }
           
         private void btnExit_prod_Click(object sender, EventArgs e)
-        { Form_Add_Product f = new Form_Add_Product();
-            f.Close();
-            MainFrm m = new MainFrm();
-            m.ShowDialog();
+        {
+            this.Close();
+           
+            
         }
 
         private void Form_Add_Product_Load(object sender, EventArgs e)

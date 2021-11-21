@@ -511,6 +511,7 @@
             this.picC.Size = new System.Drawing.Size(133, 159);
             this.picC.TabIndex = 19;
             this.picC.TabStop = false;
+            this.picC.Click += new System.EventHandler(this.picC_Click);
             // 
             // button2
             // 
@@ -640,6 +641,7 @@
             this.button4.TabIndex = 21;
             this.button4.Text = "Exit";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btn_Print
             // 

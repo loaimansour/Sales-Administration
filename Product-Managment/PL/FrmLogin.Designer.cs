@@ -36,18 +36,17 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblUser
             // 
             this.lblUser.AutoSize = true;
-            this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUser.ForeColor = System.Drawing.Color.Navy;
             this.lblUser.Location = new System.Drawing.Point(22, 138);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(80, 16);
+            this.lblUser.Size = new System.Drawing.Size(90, 16);
             this.lblUser.TabIndex = 0;
             this.lblUser.Text = "User Name:";
             this.lblUser.Click += new System.EventHandler(this.lblUser_Click);
@@ -55,11 +54,11 @@
             // lblpwd
             // 
             this.lblpwd.AutoSize = true;
-            this.lblpwd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpwd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblpwd.ForeColor = System.Drawing.Color.Navy;
             this.lblpwd.Location = new System.Drawing.Point(31, 178);
             this.lblpwd.Name = "lblpwd";
-            this.lblpwd.Size = new System.Drawing.Size(71, 16);
+            this.lblpwd.Size = new System.Drawing.Size(80, 16);
             this.lblpwd.TabIndex = 1;
             this.lblpwd.Text = "Password:";
             // 
@@ -100,9 +99,9 @@
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLogin.Location = new System.Drawing.Point(209, 203);
+            this.btnLogin.Location = new System.Drawing.Point(206, 213);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(137, 74);
+            this.btnLogin.Size = new System.Drawing.Size(137, 67);
             this.btnLogin.TabIndex = 7;
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -121,24 +120,13 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(226, 46);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "label1";
-            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::Product_Managment.Properties.Resources._5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(775, 363);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.pictureBox1);
@@ -171,6 +159,5 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
     }
 }

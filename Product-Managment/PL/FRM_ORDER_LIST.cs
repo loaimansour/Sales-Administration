@@ -56,5 +56,10 @@ namespace Product_Managment.PL
             frm.ShowDialog();
             this.Cursor = Cursors.Default;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

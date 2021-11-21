@@ -94,52 +94,64 @@
             // 
             // btnFirst
             // 
-            this.btnFirst.BackgroundImage = global::Product_Managment.Properties.Resources.NextFirst;
+            this.btnFirst.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnFirst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnFirst.Location = new System.Drawing.Point(773, 172);
+            this.btnFirst.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFirst.ForeColor = System.Drawing.Color.White;
+            this.btnFirst.Location = new System.Drawing.Point(738, 172);
             this.btnFirst.Name = "btnFirst";
-            this.btnFirst.Size = new System.Drawing.Size(73, 35);
+            this.btnFirst.Size = new System.Drawing.Size(60, 35);
             this.btnFirst.TabIndex = 4;
-            this.btnFirst.UseVisualStyleBackColor = true;
+            this.btnFirst.Text = ">||";
+            this.btnFirst.UseVisualStyleBackColor = false;
             this.btnFirst.Click += new System.EventHandler(this.btnFirst_Click);
             // 
             // btnLast
             // 
-            this.btnLast.BackgroundImage = global::Product_Managment.Properties.Resources.last;
+            this.btnLast.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnLast.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLast.Location = new System.Drawing.Point(469, 174);
+            this.btnLast.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLast.ForeColor = System.Drawing.Color.White;
+            this.btnLast.Location = new System.Drawing.Point(434, 174);
             this.btnLast.Name = "btnLast";
-            this.btnLast.Size = new System.Drawing.Size(68, 33);
+            this.btnLast.Size = new System.Drawing.Size(60, 33);
             this.btnLast.TabIndex = 5;
-            this.btnLast.UseVisualStyleBackColor = true;
+            this.btnLast.Text = "||<";
+            this.btnLast.UseVisualStyleBackColor = false;
             this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
             // 
             // btnNext
             // 
-            this.btnNext.BackgroundImage = global::Product_Managment.Properties.Resources.back;
+            this.btnNext.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnNext.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnNext.Location = new System.Drawing.Point(560, 172);
+            this.btnNext.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNext.ForeColor = System.Drawing.Color.White;
+            this.btnNext.Location = new System.Drawing.Point(517, 174);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(75, 34);
+            this.btnNext.Size = new System.Drawing.Size(61, 34);
             this.btnNext.TabIndex = 6;
-            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Text = "<";
+            this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnPrevos
             // 
-            this.btnPrevos.BackgroundImage = global::Product_Managment.Properties.Resources.Next1;
+            this.btnPrevos.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnPrevos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnPrevos.Location = new System.Drawing.Point(690, 171);
+            this.btnPrevos.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrevos.ForeColor = System.Drawing.Color.White;
+            this.btnPrevos.Location = new System.Drawing.Point(655, 172);
             this.btnPrevos.Name = "btnPrevos";
-            this.btnPrevos.Size = new System.Drawing.Size(70, 36);
+            this.btnPrevos.Size = new System.Drawing.Size(57, 36);
             this.btnPrevos.TabIndex = 7;
-            this.btnPrevos.UseVisualStyleBackColor = true;
+            this.btnPrevos.Text = ">";
+            this.btnPrevos.UseVisualStyleBackColor = false;
             this.btnPrevos.Click += new System.EventHandler(this.btnPrevos_Click);
             // 
             // lblPostion
             // 
             this.lblPostion.AutoSize = true;
-            this.lblPostion.Location = new System.Drawing.Point(649, 179);
+            this.lblPostion.Location = new System.Drawing.Point(607, 186);
             this.lblPostion.Name = "lblPostion";
             this.lblPostion.Size = new System.Drawing.Size(35, 13);
             this.lblPostion.TabIndex = 8;
@@ -258,7 +270,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Product_Managment.Properties.Resources._10;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(981, 516);
             this.Controls.Add(this.groupBox2);

@@ -389,5 +389,15 @@ namespace Product_Managment.PL
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void picC_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

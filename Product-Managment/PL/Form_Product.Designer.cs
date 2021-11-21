@@ -33,14 +33,13 @@
             this.GBX_Product = new System.Windows.Forms.GroupBox();
             this.DGV = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button6 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.GBX_Product.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -94,7 +93,6 @@
             // 
             this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.button8);
-            this.groupBox2.Controls.Add(this.button6);
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.button5);
             this.groupBox2.Controls.Add(this.button4);
@@ -109,15 +107,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Available operations";
             // 
-            // button6
+            // button8
             // 
-            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button6.Location = new System.Drawing.Point(167, 113);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(128, 23);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Save to Excel";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button8.Location = new System.Drawing.Point(675, 37);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(148, 23);
+            this.button8.TabIndex = 7;
+            this.button8.Text = "Print all Products";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -183,17 +182,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button8
-            // 
-            this.button8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button8.Location = new System.Drawing.Point(675, 37);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(148, 23);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Print all Products";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
             // Form_Product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -222,7 +210,6 @@
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.GroupBox GBX_Product;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;

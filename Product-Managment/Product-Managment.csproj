@@ -179,8 +179,19 @@
     <Compile Include="PL\ShowImage.Designer.cs">
       <DependentUpon>ShowImage.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\[ٌFRM_User management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\[ٌFRM_User management.Designer.cs">
+      <DependentUpon>[ٌFRM_User management.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RPT\FRM_RPT_PRODUCT.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -262,16 +273,14 @@
     <EmbeddedResource Include="PL\ShowImage.resx">
       <DependentUpon>ShowImage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PL\[ٌFRM_User management.resx">
+      <DependentUpon>[ٌFRM_User management.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="RPT\FRM_RPT_PRODUCT.resx">
       <DependentUpon>FRM_RPT_PRODUCT.cs</DependentUpon>
     </EmbeddedResource>
@@ -309,37 +318,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\png-transparent-computer-icons-login-icon-design-others-logo-silhouette-share-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\download.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\مخ.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\4.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\5.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\6.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\7.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\8.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\9.jpg" />

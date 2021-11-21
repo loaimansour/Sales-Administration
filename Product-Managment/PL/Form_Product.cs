@@ -56,8 +56,7 @@ namespace Product_Managment.PL
         private void button7_Click(object sender, EventArgs e)
         {
             this.Close();
-            MainFrm m = new MainFrm();
-            m.ShowDialog();
+          
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -110,7 +109,7 @@ namespace Product_Managment.PL
             Edit.txtLable.Text = this.DGV.CurrentRow.Cells[1].Value.ToString();
             Edit.txtQty.Text = this.DGV.CurrentRow.Cells[2].Value.ToString();
             Edit.txtPrice.Text = this.DGV.CurrentRow.Cells[3].Value.ToString();
-            Edit.txtIDCat.Text = this.DGV.CurrentRow.Cells[4].Value.ToString();
+            Edit.txtIDCat.Text = this.DGV.CurrentRow.Cells[6].Value.ToString();
             DataTable dt = new DataTable();
             try
             {
@@ -123,9 +122,6 @@ namespace Product_Managment.PL
             {
                 MessageBox.Show("No picture available");
                         }
-
-
-
 
 
             Edit.txtID.ReadOnly = true;
